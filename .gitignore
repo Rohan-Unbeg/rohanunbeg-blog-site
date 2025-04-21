@@ -2,6 +2,7 @@
 test_*.txt
 sample_*.txt
 *.md
+*.markdown
 *.py
 
 # Ignore build and dependency files (if any)
