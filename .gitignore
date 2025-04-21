@@ -1,0 +1,27 @@
+# Ignore Python automation and test scripts
+test_*.txt
+sample_*.txt
+*.md
+*.py
+
+# Ignore build and dependency files (if any)
+node_modules/
+.DS_Store
+*.log
+
+# Ignore OS and editor files
+Thumbs.db
+.vscode/
+.idea/
+
+# Allow only production files
+!index.html
+!about.html
+!contact.html
+!blog.html
+!robots.txt
+!sitemap.xml
+!css/
+!js/
+!images/
+!blog/

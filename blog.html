@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Blog - Rohan Unbeg</title>
+<meta content="Explore articles on AI tools, dev tools, and tech insights to enhance your development workflow" name="description"/>
+<meta content="AI tools, developer tools, tech blog, Rohan Unbeg, software engineering, programming, productivity, coding, automation, tech insights" name="keywords"/>
+<meta content="index, follow" name="robots"/>
+<link href="https://rohanunbeg.com/blog.html" rel="canonical"/>
+<meta content="website" property="og:type"/>
+<meta content="Blog - Rohan Unbeg" property="og:title"/>
+<meta content="Explore articles on AI tools, dev tools, and tech insights to enhance your development workflow" property="og:description"/>
+<meta content="https://rohanunbeg.com/blog.html" property="og:url"/>
+<meta content="https://rohanunbeg.com/images/hero-bg.jpg" property="og:image"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content="Blog - Rohan Unbeg" name="twitter:title"/>
+<meta content="Explore articles on AI tools, dev tools, and tech insights to enhance your development workflow" name="twitter:description"/>
+<meta content="https://rohanunbeg.com/images/hero-bg.jpg" name="twitter:image"/>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Blog",
+  "url": "https://rohanunbeg.com/blog.html",
+  "name": "Blog - Rohan Unbeg",
+  "description": "Explore articles on AI tools, dev tools, and tech insights to enhance your development workflow",
+  "publisher": {
+    "@type": "Person",
+    "name": "Rohan Unbeg"
+  },
+  "inLanguage": "en"
+}
+</script>
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+<link href="images/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="images/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="images/favicon.png" rel="icon" sizes="96x96" type="image/png"/>
+<link href="images/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+<link href="images/android-chrome-192x192.png" rel="icon" sizes="192x192" type="image/png"/>
+<link href="images/android-chrome-512x512.png" rel="icon" sizes="512x512" type="image/png"/>
+<link href="site.webmanifest" rel="manifest"/>
+<link href="css/styles.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        .cta {
+            background: var(--darker-color);
+            color: var(--light-text);
+            padding: 4rem 0;
+        }
+
+        .cta-content {
+            max-width: 700px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .cta h2 {
+            margin-bottom: 1rem;
+            font-size: 2rem;
+        }
+
+        .cta p {
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .newsletter-form {
+            display: flex;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .newsletter-form input {
+            flex: 1;
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 5px 0 0 5px;
+            font-size: 1rem;
+        }
+
+        .newsletter-form button {
+            border-radius: 0 5px 5px 0;
+        }
+
+        @media screen and (max-width: 768px) {
+            .newsletter-form {
+                flex-direction: column;
+            }
+
+            .newsletter-form input {
+                border-radius: 5px;
+                margin-bottom: 1rem;
+            }
+
+            .newsletter-form button {
+                border-radius: 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+<header>
+<div class="container">
+<div class="logo">
+<a href="index.html">Rohan Unbeg</a>
+</div>
+<nav>
+<ul class="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a class="active" href="blog.html">Blog</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+<div class="burger">
+<div class="line1"></div>
+<div class="line2"></div>
+<div class="line3"></div>
+</div>
+</nav>
+</div>
+</header>
+<main>
+<section class="blog-header">
+<h1>Blog</h1>
+<p>Insights and guides on AI tools, development, and tech trends</p>
+</section>
+<section class="blog-categories">
+<div class="container">
+<ul class="category-filter">
+<li><a class="active" data-category="all" href="#">All Topics</a></li>
+<li><a data-category="ai" href="#"><i class="fas fa-robot"></i> AI Tools</a></li>
+<li><a data-category="dev" href="#"><i class="fas fa-code"></i> Dev Tools</a></li>
+<li><a data-category="tech" href="#"><i class="fas fa-newspaper"></i> Tech News</a></li>
+<li><a data-category="tutorials" href="#"><i class="fas fa-book"></i> Tutorials</a></li>
+<li><a data-category="web-design" href="#"><i class="fas fa-palette"></i> Web Design</a></li>
+</ul>
+</div>
+</section>
+<section class="blog-posts">
+<div class="container">
+<div class="posts-grid"><article class="article-card" data-category="ai"><div class="article-image"><img alt="AI Agents illustration: digital agent, flowchart, and code" src="../images/aiagents.webp"/><span class="article-category">AI Tools</span></div><div class="article-content"><div class="article-meta"><span><i class="far fa-calendar"></i> April 21, 2025</span><span><i class="far fa-clock"></i> 5 min read</span></div><h3 class="article-title"><a href="/blog/the-rise-of-ai-agents-in-software-development-a-2025-guide.html">The Rise of AI Agents in Software Development: A 2025 Guide</a></h3><p class="article-excerpt">Explore the latest in AI Tools with this insightful post.</p><a class="read-more" href="/blog/the-rise-of-ai-agents-in-software-development-a-2025-guide.html">Read More <i class="fas fa-arrow-right"></i></a></div></article><article class="article-card" data-category="ai"><div class="article-image"><img alt="AI Coding Assistants illustration: laptop, code, and AI icons" src="../images/codingassistant.webp"/><span class="article-category">AI Tools</span></div><div class="article-content"><div class="article-meta"><span><i class="far fa-calendar"></i> April 21, 2025</span><span><i class="far fa-clock"></i> 5 min read</span></div><h3 class="article-title"><a href="/blog/the-best-ai-coding-assistants-for-developers-in-2025.html">The Best AI Coding Assistants for Developers in 2025</a></h3><p class="article-excerpt">Explore the latest in AI Tools with this insightful post.</p><a class="read-more" href="/blog/the-best-ai-coding-assistants-for-developers-in-2025.html">Read More <i class="fas fa-arrow-right"></i></a></div></article><article class="article-card" data-category="ai"><div class="article-image"><img alt="Tiny Language Model illustration: chip, mobile, and AI brain" src="../images/tinymodel.webp"/><span class="article-category">AI Tools</span></div><div class="article-content"><div class="article-meta"><span><i class="far fa-calendar"></i> April 21, 2025</span><span><i class="far fa-clock"></i> 5 min read</span></div><h3 class="article-title"><a href="/blog/small-language-models-the-future-of-on-device-ai-for-developers.html">Small Language Models: The Future of On-Device AI for Developers</a></h3><p class="article-excerpt">Explore the latest in AI Tools with this insightful post.</p><a class="read-more" href="/blog/small-language-models-the-future-of-on-device-ai-for-developers.html">Read More <i class="fas fa-arrow-right"></i></a></div></article><article class="article-card" data-category="ai"><div class="article-image"><img alt="AI Software Testing illustration: test tubes, code, and AI bot" src="../images/testing.webp"/><span class="article-category">AI Tools</span></div><div class="article-content"><div class="article-meta"><span><i class="far fa-calendar"></i> April 21, 2025</span><span><i class="far fa-clock"></i> 5 min read</span></div><h3 class="article-title"><a href="/blog/how-ai-is-transforming-software-testing-in-2025.html">How AI is Transforming Software Testing: 2025 Insights</a></h3><p class="article-excerpt">Explore the latest in AI Tools with this insightful post.</p><a class="read-more" href="/blog/how-ai-is-transforming-software-testing-in-2025.html">Read More <i class="fas fa-arrow-right"></i></a></div></article><article class="article-card" data-category="ai"><div class="article-image"><img alt="AI-Powered DevOps illustration: gears, pipelines, and AI chip" src="../images/cicd.webp"/><span class="article-category">AI Tools</span></div><div class="article-content"><div class="article-meta"><span><i class="far fa-calendar"></i> April 21, 2025</span><span><i class="far fa-clock"></i> 5 min read</span></div><h3 class="article-title"><a href="/blog/ai-powered-devops-streamlining-ci-cd-in-2025.html">AI-Powered DevOps: Streamlining CI/CD in 2025</a></h3><p class="article-excerpt">Explore the latest in AI Tools with this insightful post.</p><a class="read-more" href="/blog/ai-powered-devops-streamlining-ci-cd-in-2025.html">Read More <i class="fas fa-arrow-right"></i></a></div></article>
+</div>
+</div>
+</section>
+<section class="pagination">
+<div class="container">
+<div class="pagination-links">
+<a aria-label="Previous page" class="pagination-btn prev" href="#"><i class="fas fa-chevron-left"></i></a>
+<a class="pagination-btn active" href="#">1</a>
+<a class="pagination-btn" href="#">2</a>
+<a class="pagination-btn" href="#">3</a>
+<span class="pagination-btn">...</span>
+<a class="pagination-btn" href="#">8</a>
+<a aria-label="Next page" class="pagination-btn next" href="#"><i class="fas fa-chevron-right"></i></a>
+</div>
+</div>
+</section>
+<section class="cta">
+<div class="container">
+<div class="cta-content">
+<h2>Stay Updated with the Latest Tools &amp; Trends</h2>
+<p>Subscribe to my newsletter to receive weekly roundups of the best AI and development tools.</p>
+<form class="newsletter-form">
+<input placeholder="Your email address" required="" type="email"/>
+<button class="btn" type="submit">Subscribe</button>
+</form>
+</div>
+</div>
+</section>
+</main>
+<footer>
+<div class="container">
+<div class="footer-content">
+<div class="footer-logo">
+<a href="index.html">Rohan Unbeg</a>
+<p>Exploring the future of AI &amp; Dev Tools</p>
+</div>
+<div class="footer-links">
+<div class="links-group">
+<h3>Navigation</h3>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="blog.html">Blog</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</div>
+<div class="links-group">
+<h3>Categories</h3>
+<ul>
+<li><a href="blog.html?category=ai">AI Tools</a></li>
+<li><a href="blog.html?category=dev">Dev Tools</a></li>
+<li><a href="blog.html?category=tech">Tech News</a></li>
+<li><a href="blog.html?category=tutorials">Tutorials</a></li>
+<li><a href="blog.html?category=web-design">Web Design</a></li>
+</ul>
+</div>
+<div class="links-group">
+<h3>Connect</h3>
+<ul class="social-links">
+<li><a href="#" target="_blank"><i class="fab fa-twitter"></i> Twitter</a></li>
+<li><a href="#" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+<li><a href="#" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="footer-bottom">
+<p> 2023 Rohan Unbeg. All rights reserved.</p>
+</div>
+</div>
+</footer>
+<script src="js/main.min.js"></script>
+<script>
+        // Category filtering with optimized performance
+        document.addEventListener('DOMContentLoaded', function () {
+            const categoryLinks = document.querySelectorAll('.category-filter a');
+            const postCards = document.querySelectorAll('.article-card');
+            const postsPerPage = 9; // Number of posts to show per page
+            let currentPage = 1;
+            let filteredPosts = [...postCards]; // Start with all posts
+            const prevBtn = document.querySelector('.pagination-btn.prev');
+            const nextBtn = document.querySelector('.pagination-btn.next');
+            const pageButtons = document.querySelectorAll('.pagination-btn:not(.prev):not(.next):not(.dots)');
+
+            function showCurrentPagePosts() {
+                const startIdx = (currentPage - 1) * postsPerPage;
+                const endIdx = startIdx + postsPerPage;
+                postCards.forEach(card => card.classList.add('hidden'));
+                filteredPosts.forEach((card, idx) => {
+                    if (idx >= startIdx && idx < endIdx) {
+                        card.classList.remove('hidden');
+                    } else {
+                        card.classList.add('hidden');
+                    }
+                });
+            }
+
+            function initPagination() {
+                // Calculate total pages based on filtered posts
+                const totalPages = Math.ceil(filteredPosts.length / postsPerPage);
+                
+                // Update pagination numbers
+                const pageNumbers = document.querySelectorAll('.pagination-btn:not(.prev):not(.next):not(.dots)');
+                
+                // Hide all page numbers first
+                pageNumbers.forEach(btn => {
+                    if (!btn.classList.contains('dots')) {
+                        btn.style.display = 'none';
+                    }
+                });
+                
+                // Show appropriate page numbers
+                let maxButtons = 5; // Maximum number of page buttons to show
+                if (totalPages <= maxButtons) {
+                    // Show all pages if there are fewer than maxButtons
+                    for (let i = 0; i < pageNumbers.length && i < totalPages; i++) {
+                        pageNumbers[i].style.display = 'flex';
+                        pageNumbers[i].textContent = i + 1;
+                        pageNumbers[i].classList.toggle('active', i + 1 === currentPage);
+                    }
+                } else {
+                    // Show a subset of pages with dots
+                    let startPage = Math.max(1, currentPage - 1);
+                    let endPage = Math.min(startPage + 2, totalPages);
+                    
+                    if (endPage - startPage < 2) {
+                        startPage = Math.max(1, endPage - 2);
+                    }
+                    
+                    for (let i = 0; i < pageNumbers.length && i < maxButtons; i++) {
+                        if (i === 0) {
+                            // First page
+                            pageNumbers[i].style.display = 'flex';
+                            pageNumbers[i].textContent = 1;
+                            pageNumbers[i].classList.toggle('active', 1 === currentPage);
+                        } else if (i === maxButtons - 1) {
+                            // Last page
+                            pageNumbers[i].style.display = 'flex';
+                            pageNumbers[i].textContent = totalPages;
+                            pageNumbers[i].classList.toggle('active', totalPages === currentPage);
+                        } else if (i === 1 && startPage > 2) {
+                            // Show dots after first page
+                            pageNumbers[i].style.display = 'flex';
+                            pageNumbers[i].textContent = '...';
+                            pageNumbers[i].classList.add('dots');
+                            pageNumbers[i].classList.remove('active');
+                        } else if (i === maxButtons - 2 && endPage < totalPages - 1) {
+                            // Show dots before last page
+                            pageNumbers[i].style.display = 'flex';
+                            pageNumbers[i].textContent = '...';
+                            pageNumbers[i].classList.add('dots');
+                            pageNumbers[i].classList.remove('active');
+                        } else if (i >= 1 && i < maxButtons - 1) {
+                            // Middle pages
+                            const pageNum = startPage + (i - 1);
+                            if (pageNum <= endPage && pageNum > 1 && pageNum < totalPages) {
+                                pageNumbers[i].style.display = 'flex';
+                                pageNumbers[i].textContent = pageNum;
+                                pageNumbers[i].classList.toggle('active', pageNum === currentPage);
+                                pageNumbers[i].classList.remove('dots');
+                            } else {
+                                pageNumbers[i].style.display = 'none';
+                            }
+                        }
+                    }
+                }
+                
+                // Update prev/next buttons
+                prevBtn.classList.toggle('disabled', currentPage === 1);
+                nextBtn.classList.toggle('disabled', currentPage === totalPages || totalPages === 0);
+                
+                // Show posts for current page
+                showCurrentPagePosts();
+            }
+            
+            // Apply initial filter from URL parameter if present
+            const urlParams = new URLSearchParams(window.location.search);
+            const initialCategory = urlParams.get('category') || 'all';
+            // Set active link based on initial category
+            categoryLinks.forEach(link => link.classList.toggle('active', link.dataset.category === initialCategory));
+            // Filter posts accordingly
+            if (initialCategory === 'all') {
+                filteredPosts = [...postCards];
+            } else {
+                filteredPosts = [...postCards].filter(card => card.dataset.category === initialCategory);
+            }
+            console.log('Initial filter:', initialCategory, filteredPosts.map(card => card.querySelector('.article-title').innerText));
+            showCurrentPagePosts();
+
+            categoryLinks.forEach(link => {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    categoryLinks.forEach(l => l.classList.remove('active'));
+                    this.classList.add('active');
+                    const selectedCategory = this.dataset.category;
+                    if (selectedCategory === 'all') {
+                        filteredPosts = [...postCards];
+                    } else {
+                        filteredPosts = [...postCards].filter(card => card.dataset.category === selectedCategory);
+                    }
+                    console.log('Filter click:', selectedCategory, filteredPosts.map(card => card.querySelector('.article-title').innerText));
+                    currentPage = 1;
+                    initPagination();
+                    showCurrentPagePosts();
+                });
+            });
+
+            pageButtons.forEach(btn => btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                currentPage = Number(this.textContent);
+                initPagination();
+            }));
+
+            prevBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                if (currentPage > 1) {
+                    currentPage--;
+                    initPagination();
+                }
+            });
+
+            nextBtn.addEventListener('click', function(e) {
+                e.preventDefault();
+                if (currentPage < Math.ceil(filteredPosts.length / postsPerPage)) {
+                    currentPage++;
+                    initPagination();
+                }
+            });
+
+            // Initial setup
+            initPagination();
+        });
+</script>
+<style>
+        .hidden {
+            display: none !important;
+        }
+        
+        .pagination-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+            margin: 2rem 0;
+        }
+        
+        .pagination-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: white;
+            color: var(--dark-color);
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            cursor: pointer;
+        }
+        
+        .pagination-btn.active {
+            background: var(--primary-color);
+            color: white;
+        }
+        
+        .pagination-btn:hover:not(.active):not(.disabled):not(.dots) {
+            background: var(--light-gray);
+        }
+        
+        .pagination-btn.disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .pagination-btn.dots {
+            box-shadow: none;
+            background: transparent;
+            cursor: default;
+        }
+        
+        /* Article card styling - exactly matching index.html */
+        .posts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .article-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: var(--card-shadow);
+            transition: var(--transition);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .article-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
+        }
+        
+        .article-image {
+            position: relative;
+            height: 200px;
+        }
+        
+        .article-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .article-category {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 0.4rem 0.8rem;
+            border-radius: 30px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+        
+        .article-content {
+            padding: 1.5rem;
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .article-title {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+            line-height: 1.4;
+        }
+        
+        .article-title a {
+            color: var(--dark-color);
+        }
+        
+        .article-title a:hover {
+            color: var(--primary-color);
+        }
+        
+        .article-excerpt {
+            color: var(--gray-color);
+            margin-bottom: 1.5rem;
+            flex-grow: 1;
+        }
+        
+        .article-meta {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.85rem;
+            color: var(--gray-color);
+            margin-bottom: 1rem;
+        }
+        
+        .read-more {
+            color: var(--primary-color);
+            font-weight: 500;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .read-more:hover {
+            color: var(--secondary-color);
+        }
+        
+        @media screen and (max-width: 768px) {
+            .posts-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        .hero-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2rem;
+        }
+        
+        .hero-content {
+            flex: 1;
+        }
+        
+        .hero-image {
+            flex: 1;
+        }
+        
+        .hero-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        
+        @media screen and (max-width: 768px) {
+            .hero-flex {
+                flex-direction: column;
+            }
+        }
+        
+        /* Removed hero-bg-image inline styles as they're now in styles.css */
+        
+        @media screen and (max-width: 768px) {
+            .hero-flex {
+                flex-direction: column;
+            }
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://rohanunbeg.com/</loc>
+  </url>
+  <url>
+    <loc>https://rohanunbeg.com/blog.html</loc>
+  </url>
+  <url>
+    <loc>https://rohanunbeg.com/about.html</loc>
+  </url>
+  <url>
+    <loc>https://rohanunbeg.com/contact.html</loc>
+  </url>
+  <url>
+    <loc>https://rohanunbeg.com/robots.txt</loc>
+  </url>
+  <!-- Blog posts -->
+  <url>
+    <loc>https://rohanunbeg.com/blog/10-ai-tools-every-developer-should-know-in-2025.html</loc>
+  </url>
+  <url>
+    <loc>https://rohanunbeg.com/blog/ai-coding-assistants-comparison-2025.html</loc>
+  </url>
+  <url>
+    <loc>https://rohanunbeg.com/blog/ai-seo-automation-test.html</loc>
+  </url>
+  <url>
+    <loc>https://rohanunbeg.com/blog/best-ai-debugging-tools-2025.html</loc>
+  </url>
+  <url>
+    <loc>https://rohanunbeg.com/blog/final-aligned-layout.html</loc>
+  </url>
+  <url>
+    <loc>https://rohanunbeg.com/blog/top-5-ai-productivity-tools-for-2025.html</loc>
+  </url>
+  <!-- Add more blog posts as needed -->
+</urlset>
